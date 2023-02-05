@@ -1,0 +1,224 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>My Learning Journal</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link rel="stylesheet" href="css/style.css">
+        
+        
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,700;0,900;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+        <header>
+            
+            <nav>
+            
+                <div>    
+                    <img href="#home" onclick="window.location.replace('index.html')" src="./images/logo.png"  id="logo"/>
+                </div>
+                <div class="burger" onclick="toggleMenu()">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                
+                <ul class="nav-links"  id="nav">
+                    <li><a href="#home" onclick="window.location.replace('index.html')">                 Home</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#home" 
+                           onclick="window.location.replace('about-me.html')">
+                           About </a>
+                    </li>
+                    
+                </ul>
+            </nav>
+            
+          
+        </header>
+        
+        
+        <main>
+        
+        
+        
+            <section>  
+                <div class="hero" >   
+                    <div class="hero-content"> 
+                        <span class="data">JULY 23, 2022</span>
+                        <h1 class="heading">My new journey as a bootcamp student.</h1>
+                        <p class="subheading">After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.</p>
+                    </div>    
+                 </div>   
+            </section> 
+            
+            
+            
+            <section class="blogs">
+                
+                <!-- Blog one -->
+                <div class="blog one">
+                    <img class="blog-img" src="./images/blog-image-01.png" alt="#1" />
+                    <div class="blog-text-content">
+                        <p class="data">JULY 23, 2022</p>
+                        <h2 class="blog-name">Blog One</h2>
+                        <p class="subheading">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+                    </div>
+                </div>
+                
+                <!-- Blog two -->
+                <div class="blog two">
+                    <img class="blog-img" src="./images/blog-image-02.png" alt="#2" />
+                    <div class="blog-text-content">
+                        <p class="data">JULY 23, 2022</p>
+                        <h2 class="blog-name">Blog Two</h2>
+                        <p class="subheading">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+                    </div>
+                </div>
+                
+                <!-- Blog Three -->
+                <div class="blog three">
+                    <img class="blog-img" src="./images/blog-image-03.png" alt="#3" />
+                    <div class="blog-text-content">
+                        <p class="data">JULY 23, 2022</p>
+                        <h2 class="blog-name">Blog Three</h2>
+                        <p class="subheading">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+                    </div>
+                </div>
+                
+                <!-- Blog Four -->
+                <div class="blog four">
+                    <img class="blog-img" src="./images/blog-image-04.png" alt="#4" />
+                    <div class="blog-text-content">
+                        <p class="data">JULY 23, 2022</p>
+                        <h2 class="blog-name">Blog Two</h2>
+                        <p class="subheading">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+                    </div>
+                </div>
+                
+                <!-- Blog Five -->
+                <div class="blog five">
+                    <img class="blog-img" src="./images/blog-image-05.png" alt="#5" />
+                    <div class="blog-text-content">
+                        <p class="data">JULY 23, 2022</p>
+                        <h2 class="blog-name">Blog Five</h2>
+                        <p class="subheading">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+                    </div>
+                </div>
+                
+                <!-- Blog Six -->
+                <div class="blog six">
+                    <img class="blog-img" src="./images/blog-image-06.png" alt="#6" />
+                    <div class="blog-text-content">
+                        <p class="data">JULY 23, 2022</p>
+                        <h2 class="blog-name">Blog Two</h2>
+                        <p class="subheading">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="view-more">
+                <a link="#">View More</a>
+            </div>
+        
+        </main>
+        
+        <footer>
+            <strong>My Learning Journal</strong>
+            <span> Copyright ©2022 </span>
+        </footer>
+        
+        
+        <script src="index.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+<!-- Toggle hamburger  -->
+
+
+<!-- 
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <title>Hamburger Navigation</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <button class="hamburger">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+    </button>
+
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+ 
+ 
+ 
+ 
+ .hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+}
+
+.line {
+  width: 2rem;
+  height: 0.25rem;
+  background: #000;
+}
+
+.nav-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+
+.nav-menu.open {
+  display: block;
+}
+
+
+
+
+
+
+$(document).ready(function(){
+  $(".hamburger").click(function() {
+    $(".nav-menu").toggleClass("open");
+  });
+}); -->
